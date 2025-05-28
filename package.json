@@ -1,0 +1,23 @@
+{
+  "name": "uptime-simulator",
+  "version": "1.0.0",
+  "description": "A web service uptime simulator",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^20.11.24",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
